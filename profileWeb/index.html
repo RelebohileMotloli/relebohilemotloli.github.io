@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.back{
+float: right;
+width: 40%;
+}
+</style>
+<script src="https://kit.fontawesome.com/70d60df8d2.js" crossorigin="anonymous"></script>
+</head >
+<body>
+    <img class="back" src="pictures/background.jpg" srcset="">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="pictures/logo.png" class="logo">
+                <ul>
+                    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class a="fa-solid fa-xmark"></i>
+                </ul>
+                <i class a="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi,<br > i'm <span> Relebohile Motloli</span></h1>
+            </div>
+        </div>
+    </div>
+ 
+   
+<!------About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pictures/profile.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>
+                        Hello! I'm Relebohile, a passionate software developer with a keen interest in crafting elegant solutions to complex problems. With 1 year and counting of experience in the field, I've had the opportunity to work on a variety of projects spanning web development, mobile applications, and software engineering.
+
+                        I thrive in collaborative environments where creativity and innovation are encouraged. Whether it's brainstorming new ideas, architecting scalable systems, or diving deep into debugging, I approach every challenge with enthusiasm and a commitment to excellence.In addition to my technical skills, I'm a strong advocate for clean code, best practices, and continuous improvement. I believe in the power of teamwork and communication to deliver exceptional results that exceed expectations.
+                        
+                        I'm excited about the opportunity to collaborate on exciting projects and contribute to meaningful endeavors. Let's connect and explore how we can work together to turn ideas into reality!
+                    </p>
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experince')">Experince</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span>2024-current</span><br>UI/UX Design Traning at Namedi Consulting </li>
+                            <li><span>2024-current</span><br>Junior web Developer Traning at Namedi Consulting</li>
+                            <li><span>2024-current</span><br>Junior Android Developer Traning at Namedi Consulting</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="education">
+                        <ul>
+                            <li><span>2020-2023</span><br>Diploma in ICT in Application Development at Walter Sisulu University </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------services!------>
+
+
+
+    <div id="services">
+<div class="container">
+    <h1 class="sub-tittle">My Sevices</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX</h2>
+            <p> Offer designs polished and user-friendly interfaces that reflect your brand identity while prioritizing usability and accessibility.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>Promise to develop bespoke web applications that are tailored to your specific business requirements, leveraging cutting-edge technologies and frameworks to deliver robust and scalable solutions.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Development</h2>
+            <p> Our application development services are tailored to meet the unique needs of each client, delivering scalable, secure, and user-friendly solutions that exceed expectations. </p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+
+    </div>
+<!---Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <!---put an image of the work you  worked with-->
+                <img src="pictures/work-1.png" >
+                <div class="layer">
+                    <h3>Social media APP</h3>
+                    <p>The app connects you to people around the world. Coming soon  to play store</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <!---put an image of the work you  worked with-->
+                <img src="pictures/work-2.png" >
+                <div class="layer">
+                    <h3>Music APP</h3>
+                    <p>All your Music organised in one place!</p>
+                    <p>Coming Soon to  play store</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <!---put an image of the work you  worked with-->
+                <img src="pictures/work-3.png" >
+                <div class="layer">
+                    <h3>Online Shopping Website</h3>
+                    <p>Bringing the Mall to Your Doorstep!</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+<a href=""class="btn">See More</a>
+    </div>
+</div>
+
+<!------Contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i> relebohilemotloli73@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 062 153 0072</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/relebohile.motloli.35/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                   
+                </div>
+                <a href="pictures/CV.pdf" Download="btn btn2" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+              <button type="Submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Relebohile. Code is the present <i class="fa-solid fa-gift"></i> and the future <i class="fa-solid fa-shuttle-space"></i></p>
+    </div>
+
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> 
+    <form name="submit-to-google-sheet">
+        
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzw6N9p0kzKr-bweiW_KL-GORYq5BXDY7A3vU1mLlFcnjfBm9UD4K336tgoLpZ7XRAzzg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML= "Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html> 
